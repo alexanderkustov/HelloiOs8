@@ -38,15 +38,6 @@
                                     <rect key="frame" x="20" y="234" width="280" height="30"/>
                                 </variation>
                             </textField>
-                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="167" translatesAutoresizingMaskIntoConstraints="NO" id="xpC-zX-e9S">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="87" width="167" height="90"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rho-eB-jaf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.17254902420000001" green="0.24313727020000001" blue="0.31372550129999999" alpha="1" colorSpace="deviceRGB"/>
@@ -59,6 +50,24 @@
                                     <action selector="sendMailButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VIR-wD-tmt"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XtH-Ca-O1z">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="75" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="167" translatesAutoresizingMaskIntoConstraints="NO" id="xpC-zX-e9S">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="104" width="167" height="90"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -66,8 +75,9 @@
                                 <exclude reference="PHL-B8-iEe"/>
                                 <exclude reference="HQ4-7X-SSa"/>
                                 <exclude reference="5nE-2u-vIe"/>
-                                <exclude reference="xpC-zX-e9S"/>
                                 <exclude reference="rho-eB-jaf"/>
+                                <exclude reference="XtH-Ca-O1z"/>
+                                <exclude reference="xpC-zX-e9S"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -75,8 +85,9 @@
                                 <include reference="PHL-B8-iEe"/>
                                 <include reference="HQ4-7X-SSa"/>
                                 <include reference="5nE-2u-vIe"/>
-                                <include reference="xpC-zX-e9S"/>
                                 <include reference="rho-eB-jaf"/>
+                                <include reference="XtH-Ca-O1z"/>
+                                <include reference="xpC-zX-e9S"/>
                             </mask>
                         </variation>
                     </view>
@@ -89,6 +100,7 @@
                         <outlet property="enterMessageTextField" destination="5nE-2u-vIe" id="65c-sP-kvz"/>
                         <outlet property="enterNameTextfield" destination="HQ4-7X-SSa" id="BXo-ky-Vgx"/>
                         <outlet property="messageLabel" destination="xpC-zX-e9S" id="kvQ-ak-RPi"/>
+                        <outlet property="nameLabel" destination="XtH-Ca-O1z" id="Ywv-Ld-ity"/>
                         <outlet property="sendMailButton" destination="rho-eB-jaf" id="PSg-PL-Tyy"/>
                     </connections>
                 </viewController>
