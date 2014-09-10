@@ -12,6 +12,8 @@
 		151B9FC119C084370049FC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151B9FBF19C084370049FC22 /* Main.storyboard */; };
 		151B9FC319C084370049FC22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151B9FC219C084370049FC22 /* Images.xcassets */; };
 		151B9FCF19C084370049FC22 /* Hello8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B9FCE19C084370049FC22 /* Hello8Tests.swift */; };
+		151B9FD919C087310049FC22 /* Metro_UI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 151B9FD819C087310049FC22 /* Metro_UI.jpg */; };
+		151B9FDB19C089280049FC22 /* ios8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 151B9FDA19C089270049FC22 /* ios8.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		151B9FC819C084370049FC22 /* Hello8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hello8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		151B9FCD19C084370049FC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		151B9FCE19C084370049FC22 /* Hello8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello8Tests.swift; sourceTree = "<group>"; };
+		151B9FD819C087310049FC22 /* Metro_UI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Metro_UI.jpg; sourceTree = "<group>"; };
+		151B9FDA19C089270049FC22 /* ios8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ios8.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		151B9FB919C084370049FC22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				151B9FDA19C089270049FC22 /* ios8.jpg */,
+				151B9FD819C087310049FC22 /* Metro_UI.jpg */,
 				151B9FBA19C084370049FC22 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -190,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				151B9FC119C084370049FC22 /* Main.storyboard in Resources */,
+				151B9FD919C087310049FC22 /* Metro_UI.jpg in Resources */,
+				151B9FDB19C089280049FC22 /* ios8.jpg in Resources */,
 				151B9FC319C084370049FC22 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
